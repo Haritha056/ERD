@@ -1,0 +1,14 @@
+RewriteEngine on 
+RewriteRule ^Home index.html
+RewriteRule ^About about.html
+RewriteRule ^Rebar-Detailing rebardetail.html
+RewriteRule ^Rebar-Estimation estimation.html
+RewriteRule ^Career career.html
+RewriteRule ^Contact contact.html
+RewriteRule ^GetQuote enquiry.html
+
+
+
+# ErrorDocument 404 /error-404
+# RewriteCond %{REQUEST_URI} ^/404/$
+# RewriteRule ^(.*)$ /error.php [L]
